@@ -1,6 +1,8 @@
 CsharpDummyAnalyzer
 ===================
 
+http://www.meetup.com/altnetfr/events/182501252
+
 Source code realize in 45 minute according a subject from the Alt.Net meetup the 21/05/2014.
 
 The code embedded :
