@@ -15,8 +15,6 @@ namespace Analyzer
          */
         static void Main(string[] args)
         {
-            Tracer.WriteTrace(args[0]);
-
             var reader = new DirectoryReader();
             var parser = new DummyAnalyzer();
             var result = new Dictionary<string, int>();
@@ -28,8 +26,11 @@ namespace Analyzer
             });
 
             var report = result.ToList().OrderByDescending(s => s.Value);
+            Tracer.WriteTrace(String.Format("Report for {0}", args[0]));
+            Tracer.WriteTrace("--------------------------");
             foreach (var keyvalue in report)
             {
+                
                 Tracer.WriteTrace(String.Format("{0};{1}", keyvalue.Key, keyvalue.Value));
             }
 
