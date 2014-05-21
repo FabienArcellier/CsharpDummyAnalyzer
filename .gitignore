@@ -1,0 +1,5 @@
+/Analyzer/*.suo
+/Analyzer/bin
+/Analyzer/obj
+
+/Analyzer/*.user
