@@ -9,6 +9,10 @@ namespace Analyzer
 {
     class Program
     {
+        //test
+        /*
+         * block of code
+         */
         static void Main(string[] args)
         {
             Tracer.WriteTrace(args[0]);
